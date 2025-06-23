@@ -1,0 +1,43 @@
+Here is a podcast script discussing the research paper on "Detection of Anomaly Stock Price Based on Time Series Analysis":
+
+**Intro Music**
+
+Host: Welcome to "Tech Insights", a podcast where we dive into the latest research and innovations in the field of technology. I'm your host, [Name], and today we're joined by Dr. [Last Name], author of the paper "Detection of Anomaly Stock Price Based on Time Series Analysis". Welcome to the show!
+
+Guest Expert (Dr. [Last Name]): Thank you for having me!
+
+Host: Our topic today is time series analysis and its applications in finance. Specifically, we're going to talk about anomaly detection in stock prices. Can you tell us a little bit about the motivation behind your research?
+
+**Segment 1: Introduction and Background**
+
+Guest Expert: Sure thing! Anomaly detection is a critical task in financial markets, as it helps identify unusual trading behaviors that can be indicative of market manipulation, insider trading, or even systemic failures. However, traditional methods for anomaly detection are often manual, time-consuming, and prone to errors. Our goal was to develop an automated method that can detect anomalies in stock prices using deep learning techniques.
+
+Host: That's fascinating. So, what makes your approach different from existing methods?
+
+Guest Expert: Well, our model is based on a Long Short-Term Memory (LSTM) network, which is a type of recurrent neural network (RNN) that's particularly well-suited for time series analysis. We used a combination of 1dConv-LSTM neurons to predict time series stock price data from historical data.
+
+**Segment 2: Methodology and Findings**
+
+Host: Impressive! Can you walk us through your methodology and key findings?
+
+Guest Expert: We analyzed the price variations of 14 stocks from 2015 to 2019 using univariate and multivariate time series models. We were able to achieve a Mean Absolute Error (MAE) of less than 4.0 consistently. Our model also improved the Mean Squared Error (MSE) to 0.0171 on validation datasets.
+
+Host: Wow, that's impressive accuracy! Can you share a specific example of where your model was able to detect an anomaly?
+
+Guest Expert: Yes, our model successfully predicted the anomalous price behavior of the '601318' stock in the range of 2019-02-13. This anomaly was not detected by traditional methods, but our model was able to identify it as unusual based on its historical patterns.
+
+**Segment 3: Implications and Future Research Directions**
+
+Host: That's incredible. What do you think the implications of this research are for the field of finance?
+
+Guest Expert: Our model provides an automatic way of detecting anomaly stock price behavior, which can benefit financial market participants, investors, and regulatory authorities. The improved accuracy and automatic nature of our model enable more efficient detection of anomalous trading behaviors, which can lead to more informed decision-making and enhanced market stability.
+
+Host: Looking ahead, what do you think are some of the next steps for this research?
+
+Guest Expert: We'd like to explore ways to generalize our model to larger datasets, as well as incorporate additional features such as economic indicators or news sentiment. We're also interested in exploring other applications of anomaly detection in finance, such as credit risk assessment or portfolio optimization.
+
+**Outro Music**
+
+Host: Well, that's all the time we have for today. Thank you, Dr. [Last Name], for sharing your insights with us!
+
+Guest Expert: Thank you for having me!
