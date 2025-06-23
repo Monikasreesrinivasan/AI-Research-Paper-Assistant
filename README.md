@@ -1,10 +1,10 @@
-📚 Research Paper Assistant
+#📚 Research Paper Assistant:
 A comprehensive AI-powered platform that transforms how researchers, academics, and students discover, manage, analyze, and interact with scientific literature.
 
-🔍 Overview
+#🔍 Overview
 Research Paper Assistant is a sophisticated backend-focused application designed to streamline academic research workflows. It combines document processing capabilities with advanced AI-powered tools to help users extract insights, discover relationships between papers, and engage with research content intuitively. The platform reduces the cognitive load associated with literature reviews and research synthesis.
 
-🏗️ Architecture
+#🏗️ Architecture
 The application follows a modern, scalable backend architecture:
 
 Backend: Built with FastAPI for high-performance asynchronous operations
@@ -35,30 +35,30 @@ Vector database for similarity comparisons
 
 Custom NLP pipelines for research-specific analysis
 
-✨ Features
-📋 Paper Management
+#✨ Features
+##📋 Paper Management
 Smart Upload System: Supports PDF and other academic formats
 
 Metadata Extraction: Auto-extracts title, authors, abstract, and references
 
-💬 Paper Chat
+##💬 Paper Chat
 Contextual Q&A: Ask questions about a paper's methodology or findings
 
 Summarization: Generate summaries at various detail levels
 
 Key Points & Gaps: Identify main contributions and future work
 
-🔗 Similar Papers
+##🔗 Similar Papers
 Semantic Similarity: Find related research regardless of terminology
 
 Explainable Recommendations: Understand why papers are linked
 
-📊 Paper Analysis
+##📊 Paper Analysis
 Method Detection: Classify research methodology
 
 Visual Element Extraction: Parse and analyze figures, tables, and charts
 
-⚖️ Paper Comparison
+##⚖️ Paper Comparison
 Side-by-Side Views: Compare methods, results, conclusions
 
 Conflict Detection: Spot contradicting findings
@@ -67,7 +67,7 @@ Timeline View: Track evolution of research
 
 Visual Diff: Create comparative graphs and metrics
 
-🤖 Research Paper Chat Assistant
+##🤖 Research Paper Chat Assistant
 Literature Review Help: Synthesize across multiple papers
 
 Research Question Refinement: Guide better formulation
@@ -80,17 +80,17 @@ Critical Thinking Prompts: Ask insightful evaluation questions
 
 Custom Research Briefs: Create topic-specific summaries
 
-🔎 Advanced Search
+##🔎 Advanced Search
 Semantic Search: Go beyond keywords to concepts
 
-⚙️ Paper Processing
+##⚙️ Paper Processing
 Audio Summarization: Convert papers into audio formats
 
 Research Podcasts: Auto-generate interview-style summaries
 
 Simplified Paper Generation: Create accessible, jargon-free versions
 
-🚀 Technologies Used
+##🚀 Technologies Used
 FastAPI – High-performance backend framework
 
 MongoDB – NoSQL database with flexible schema
